@@ -1,0 +1,22 @@
+name: fyp
+channels:
+  - conda-forge
+  - ioam
+dependencies:
+  - python=3.6
+  - numpy
+  - holoviews
+  - jupyter
+  - pandas
+  - matplotlib
+  - seaborn
+  - pip:
+    - tqdm
+    - packaging
+    - appdirs
+    - tensorflow
+    - holoviews
+    - sklearn
+    - pillow
+    - keras
+    - imageio
